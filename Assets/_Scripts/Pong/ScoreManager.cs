@@ -18,7 +18,7 @@ public class ScoreManager : MonoBehaviour
         p2text.text = p2score.ToString();
     }
 
-    void AddPoint(int player)
+    public void AddPoint(int player)
     {
         if (player == 1)
         {
